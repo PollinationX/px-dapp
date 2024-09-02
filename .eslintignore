@@ -1,0 +1,5 @@
+/dist/**
+node_modules/
+**/*.test.{js,jsx,ts,tsx}
+sentry.*.config.js
+src/pages/_error.js

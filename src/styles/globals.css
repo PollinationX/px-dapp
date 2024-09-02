@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: Metrophobic;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+:is(.dark .dark\:bg-blue-600) {
+  background-color: rgb(64 64 64 / var(--tw-bg-opacity)) !important;
+}
+:is(.dark .dark\:focus\:ring-blue-800:focus) {
+  --tw-ring-opacity: 0 !important;
+}
+.modalHeader h3 {
+}
+.tabsItem [aria-selected='true'] {
+  color: white !important;
+  background-color: rgb(64 64 64 / var(--tw-bg-opacity)) !important;
+}
+.tabsItem [aria-selected='false']:hover {
+  color: white !important;
+  background-color: rgb(64 64 64 / var(--tw-bg-opacity)) !important;
+}
+.tabsItem [data-testid='flowbite-card'] {
+  background-color: rgb(38 38 38 / var(--tw-bg-opacity)) !important;
+  border-color: rgb(64 64 64 / var(--tw-bg-opacity)) !important;
+}
+.tabsItem [aria-label='Tabs'] {
+  border: 0 !important;
+}
+:is(.dark .dark\:hover\:bg-gray-600:hover) {
+  background-color: rgb(64 64 64 / var(--tw-bg-opacity)) !important;
+}
+:is(.dark .dark\:focus\:ring-blue-500:focus) {
+  --tw-ring-color: rgb(64 64 64 / var(--tw-ring-opacity)) !important;
+}
+:is(.dark .dark\:focus\:border-blue-500:focus) {
+  border-color: rgb(226 225 225 / var(--tw-border-opacity)) !important;
+}
+.newFolderModal input,
+.nftSecretModal input,
+.editNameModal input {
+  background-color: transparent !important;
+}
+.nftModalCopyToClipboard {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+.nftSecretModal input {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+.nftSecretModal button:disabled {
+  display: none;
+}
+.Toastify__close-button--light {
+  color: white !important;
+}

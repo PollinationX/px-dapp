@@ -21,13 +21,12 @@ Policies means any of the following internal policies introduced and/or modified
 
 “Software” means any of the following software products and associated documentation files:
 
-PX dApp UI	https://github.com/PollinationX/px-dapp
-
-PX Protocols 	https://github.com/PollinationX/smart-contracts
-
-PX SDK	https://github.com/PollinationX/sdk-js
-
-
+| N   | Software                                | GitHub repository                               |
+|-----|-----------------------------------------|-------------------------------------------------|
+| 1   | PX dApp UI                              | https://github.com/PollinationX/dapp            |
+| 2   | PX SDK                                  | https://github.com/PollinationX/sdk-js          |
+| 3   | PX AUTH                                 | https://github.com/PollinationX/auth            |
+| 4   | PX Protocols                            | https://github.com/PollinationX/smart-contracts |
 
 “Terms” means these license terms, including the documents incorporated by reference hereto; 
 

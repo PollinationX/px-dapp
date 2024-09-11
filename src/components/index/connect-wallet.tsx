@@ -225,7 +225,7 @@ const ConnectWallet: FC<IConnectWalletProps> = ({ show, onClose }) => {
                   <a
                     className='text-pollinationx-honey'
                     target='_blank'
-                    href='https://github.com/immu3-io/static-assets/raw/main/pdf/2023-03-13_CR_Systems_dMail_dChat_w3xshare_Software_Terms.pdf'
+                    href='https://github.com/PollinationX/static-assets/blob/main/pdf/CR%20Systems_PollinationX_Software_Terms.pdf'
                   >
                     {t('softwareTerms')}
                   </a>
